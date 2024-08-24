@@ -15,9 +15,9 @@ const Navbar = () => {
                 </div>
                 <div className='hidden md:flex items-center space-x-4'>
                     <Link to='/' className={`nav-link ${menu === 'home' ? 'active' : ''}`} onClick={() => setMenu('home')}>Home</Link>
-                    <Link to='/product' className={`nav-link ${menu === 'product' ? 'active' : ''}`} onClick={() => setMenu('product')}>About</Link>
-                    <Link to='/category' className={`nav-link ${menu === 'category' ? 'active' : ''}`} onClick={() => setMenu('category')}>Team</Link>
-                    <Link to='/blog' className={`nav-link ${menu === 'blog' ? 'active' : ''}`} onClick={() => setMenu('blog')}>Contact</Link>
+                    <Link to='/about' className={`nav-link ${menu === 'About' ? 'active' : ''}`} onClick={() => setMenu('About')}>About</Link>
+                    <Link to='/contact' className={`nav-link ${menu === 'Contact' ? 'active' : ''}`} onClick={() => setMenu('Contact')}>Contact</Link>
+                    <Link to='/Team' className={`nav-link ${menu === 'Team' ? 'active' : ''}`} onClick={() => setMenu('Team')}>Team</Link>
                 </div>
                 <div className='flex items-center'>
                     <Link to='/login' className={`nav-link ${menu === 'loginform' ? 'active' : ''}`} onClick={() => setMenu('loginform')}><button className='mr-4'>Login</button></Link>

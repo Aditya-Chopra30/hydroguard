@@ -45,7 +45,7 @@ and able to respond promptly.
       {/* Third Portion: Image */}
       <section className="p-8 flex justify-center items-center w-full">
         <img 
-          src="/workspaces/hydroguard/hydroguard/src/Component/Middle/fireprotection.png" 
+          src="fireprotection.png" 
           alt="Descriptive Alt Text" 
           className="w-full max-w-md rounded-lg shadow-lg"
         />
