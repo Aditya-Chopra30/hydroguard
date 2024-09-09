@@ -1,4 +1,5 @@
 import React from 'react';
+import image from './fireprotection.png';
 
 const Middle = () => {
   return (
@@ -45,7 +46,7 @@ and able to respond promptly.
       {/* Third Portion: Image */}
       <section className="p-8 flex justify-center items-center w-full">
         <img 
-          src="fireprotection.png" 
+          src={image} 
           alt="Descriptive Alt Text" 
           className="w-full max-w-md rounded-lg shadow-lg"
         />

@@ -9,11 +9,11 @@ export default function Team() {
           <img
             src="https://media.istockphoto.com/id/1139778377/photo/aerial-of-bonn-the-former-capital-of-germany.jpg?s=1024x1024&w=is&k=20&c=1jiR0UD_Rrn9_4HXSU5qQHhtdK3Hnw-7XT9gbDZ2Hno="
             alt=""
-            className="w-full"
+            className="w-full h-96"
             height="0"
           />
           <div className="absolute inset-0  bg-opacity-50 flex justify-center items-center">
-            <h3 className="text-white text-9xl font-semibold">Team IoT</h3>
+            <h3 className="text-white text-9xl font-semibold">Team Hydroguard</h3>
           </div>
         </div>
       </section>
@@ -40,8 +40,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in DHA SUFFA University. I play
-                    golf very well, ok thank you bye.
+                    Name, I am a student of CS in Psit. 
                   </p>
                   <a
                     href="#"
@@ -68,8 +67,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in DHA SUFFA University. I play
-                    golf very well, ok thank you bye.
+                    Name, I am a student of CS in Psit.
                   </p>
                   <a
                     href="#"
@@ -96,8 +94,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in DHA SUFFA University. I play
-                    golf very well, ok thank you bye.
+                    Name, I am a student of CS in Psit.
                   </p>
                   <a
                     href="#"
@@ -124,8 +121,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in Psit. I play
-                    golf very well, ok thank you bye.
+                    Name, I am a student of CS in Psit.
                   </p>
                   <a
                     href="#"
