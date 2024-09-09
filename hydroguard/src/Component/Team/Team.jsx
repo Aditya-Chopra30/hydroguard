@@ -3,7 +3,7 @@ import image from "./Aizaz.jpg";
 
 export default function Team() {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center bg-amber-50">
       <section className="w-full">
         <div className="relative">
           <img
@@ -40,7 +40,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in Psit. 
+                    Name, I am a student of CS in Psit. Name, I am a student of CS in Psit. 
                   </p>
                   <a
                     href="#"
@@ -67,7 +67,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in Psit.
+                    Name, I am a student of CS in Psit. Name, I am a student of CS in Psit. 
                   </p>
                   <a
                     href="#"
@@ -94,7 +94,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in Psit.
+                    Name, I am a student of CS in Psit. Name, I am a student of CS in Psit. 
                   </p>
                   <a
                     href="#"
@@ -121,7 +121,7 @@ export default function Team() {
                     <a href="#">Member Name</a>
                   </h4>
                   <p className="mb-4">
-                    Name, I am a student of CS in Psit.
+                    Name, I am a student of CS in Psit. Name, I am a student of CS in Psit. 
                   </p>
                   <a
                     href="#"
