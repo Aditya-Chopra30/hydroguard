@@ -3,13 +3,13 @@ import image from './fireprotection.png';
 
 const Middle = () => {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col justify-center items-center">
+    <div className="bg-amber-50 text-white min-h-screen flex flex-col justify-center items-center">
         <br/>
         <br/>
       {/* First Portion: What We Are Doing */}
       <section className="p-8 text-center w-full">
-        <h1 className="text-3xl font-bold mb-4">Hydroguard : Fire safety is our top priority</h1>
-        <p className="text-lg max-w-2xl mx-auto">
+        <h1 className="text-black text-3xl font-bold mb-4">Hydroguard : Fire safety is our top priority</h1>
+        <p className="text-black text-lg max-w-2xl mx-auto">
         HydroGuard proposed solution for forest fire prevention and control integrates various technologies 
 and strategic measures to address the multifaceted challenges associated with forest fires. The 
 solution is designed to be comprehensive, scalable, and adaptable to different geographical 
