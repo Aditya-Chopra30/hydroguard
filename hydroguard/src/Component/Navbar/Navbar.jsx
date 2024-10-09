@@ -7,13 +7,13 @@ const Navbar = () => {
     
 
     return (
-        <div className="navbar bg-black text-white p-4">
+        <div className="navbar bg-amber-50 text-black p-4">
             <div className='flex items-center justify-between'>
                 <div className='flex items-center'>
                     <img src={logo1} alt="Logo" className='h-8 mr-2' />
-                    <p className='font-semibold text-xl'>Hydroguard</p>
+                    <p className='text-black font-semibold text-xl'>Hydroguard</p>
                 </div>
-                <div className='hidden md:flex items-center space-x-4'>
+                <div className='text-black hidden md:flex items-center space-x-4'>
                     <Link to='/' className={`nav-link ${menu === 'home' ? 'active' : ''}`} onClick={() => setMenu('home')}>Home</Link>
                     <Link to='/about' className={`nav-link ${menu === 'About' ? 'active' : ''}`} onClick={() => setMenu('About')}>About</Link>
                     <Link to='/contact' className={`nav-link ${menu === 'Contact' ? 'active' : ''}`} onClick={() => setMenu('Contact')}>Contact</Link>
