@@ -20,6 +20,7 @@ const Navbar = () => {
                     <Link to='/Team' className={`nav-link ${menu === 'Team' ? 'active' : ''}`} onClick={() => setMenu('Team')}>Team</Link>
                 </div>
                 <div className='flex items-center'>
+                    <Link to='/signup' className={`nav-link ${menu === 'Signup' ? 'active' : ''}`} onClick={() => setMenu('Signup')}><button className='mr-4'>SignUp</button></Link>
                     <Link to='/login' className={`nav-link ${menu === 'loginform' ? 'active' : ''}`} onClick={() => setMenu('loginform')}><button className='mr-4'>Login</button></Link>
                     
                 </div>
